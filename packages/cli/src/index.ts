@@ -593,6 +593,9 @@ const main = async () => {
         case 'whoami':
           func = require('./commands/whoami').default;
           break;
+        case 'store':
+          func = require('./commands/store').default;
+          break;
         default:
           func = null;
           break;
