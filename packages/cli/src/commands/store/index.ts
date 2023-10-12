@@ -9,15 +9,17 @@ import getInvalidSubcommand from '../../util/get-invalid-subcommand';
 import getSubcommand from '../../util/get-subcommand';
 import handleError from '../../util/handle-error';
 import { help } from '../help';
-import { getCommandName } from '../../util/pkg-name';
 import { getLinkedProject } from '../../util/projects/link';
 
 import create from './create';
 import { storeCommand } from './command';
+import { getCommandName } from '../../util/pkg-name';
 
 const COMMAND_CONFIG = {
   create: ['create'],
 };
+
+export const STORAGE_API_PATH = '/v1/storage';
 
 export default async function main(client: Client) {
   let argv;
@@ -73,13 +75,7 @@ export default async function main(client: Client) {
 
   switch (subcommand) {
     case 'create':
-      return create({
-        opts: argv,
-        environment,
-        client,
-        link,
-        output,
-      });
+      return create({ opts: argv, environment, client, link, output });
     default:
       output.error(getInvalidSubcommand(COMMAND_CONFIG));
       client.output.print(
