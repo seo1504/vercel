@@ -1,5 +1,11 @@
 # @vercel/gatsby-plugin-vercel-builder
 
+## 2.0.9
+
+### Patch Changes
+
+- Fix nested SSR routes ([#10751](https://github.com/vercel/vercel/pull/10751))
+
 ## 2.0.8
 
 ### Patch Changes

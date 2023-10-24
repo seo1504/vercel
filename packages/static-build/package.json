@@ -1,6 +1,6 @@
 {
   "name": "@vercel/static-build",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "license": "Apache-2.0",
   "main": "./dist/index",
   "homepage": "https://vercel.com/docs/build-step",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@vercel/gatsby-plugin-vercel-analytics": "1.0.11",
-    "@vercel/gatsby-plugin-vercel-builder": "2.0.8",
+    "@vercel/gatsby-plugin-vercel-builder": "2.0.9",
     "@vercel/static-config": "3.0.0",
     "ts-morph": "12.0.0"
   },

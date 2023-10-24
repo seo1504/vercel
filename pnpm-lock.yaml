@@ -322,7 +322,7 @@ importers:
         specifier: 1.0.1
         version: link:../hydrogen
       '@vercel/next':
-        specifier: 4.0.11
+        specifier: 4.0.12
         version: link:../next
       '@vercel/node':
         specifier: 3.0.7
@@ -340,7 +340,7 @@ importers:
         specifier: 2.0.2
         version: link:../ruby
       '@vercel/static-build':
-        specifier: 2.0.9
+        specifier: 2.0.10
         version: link:../static-build
       chokidar:
         specifier: 3.3.1
@@ -1460,7 +1460,7 @@ importers:
         specifier: 1.0.11
         version: link:../gatsby-plugin-vercel-analytics
       '@vercel/gatsby-plugin-vercel-builder':
-        specifier: 2.0.8
+        specifier: 2.0.9
         version: link:../gatsby-plugin-vercel-builder
       '@vercel/static-config':
         specifier: 3.0.0

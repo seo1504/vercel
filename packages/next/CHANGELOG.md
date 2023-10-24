@@ -1,5 +1,11 @@
 # @vercel/next
 
+## 4.0.12
+
+### Patch Changes
+
+- fix re-mapping logic for index prefetches ([#10750](https://github.com/vercel/vercel/pull/10750))
+
 ## 4.0.11
 
 ### Patch Changes
