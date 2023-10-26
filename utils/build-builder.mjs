@@ -17,3 +17,4 @@ await esbuild({
   bundle: true,
   external: ['@vercel/build-utils', ...externals],
 });
+
